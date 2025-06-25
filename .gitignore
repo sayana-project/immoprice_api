@@ -195,3 +195,4 @@ cython_debug/
 
 data/ValeursFoncieres-2022.txt
 notebooks/demo_linear_regression.ipynb
+util.py
