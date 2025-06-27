@@ -1,5 +1,7 @@
 # 🏡 Estimation du prix au m² - Lille & Bordeaux
 
+![image swagger](images/image1.png)
+
 Projet de Data Science visant à prédire le **prix au m²** de biens immobiliers (maisons/appartements) dans deux villes françaises : **Lille** et **Bordeaux**.
 
 ---
@@ -38,23 +40,7 @@ uvicorn app.main:app --reload
 [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
-### ✅ Si vous utilisez des fonctions `async def`, installez aussi :
 
-```bash
-pip install pytest-asyncio
-```
-
----
-
-## 🔬 Lancer les tests
-
-```bash
-pytest
-```
-
-> ⚠️ Pour tester les fonctions asynchrones, nous utilisons le plugin [`pytest-asyncio`](https://pypi.org/project/pytest-asyncio/).
-
----
 ## 🚀 Phase 1 – Analyse et modélisation pour Lille
 
 ### Objectifs
@@ -211,7 +197,26 @@ pip install httpx
 ```
 
 ---
+### ✅ Si vous utilisez des fonctions `async def`, installez aussi :
 
+```bash
+pip install pytest-asyncio
+```
+
+---
+
+## 🔬 Lancer les tests
+![image test2](images/image2.png)
+```bash
+pytest
+```
+![image swagger](images/image3.png)
+> ⚠️ Pour tester les fonctions asynchrones, nous utilisons le plugin [`pytest-asyncio`](https://pypi.org/project/pytest-asyncio/).
+
+---
+![image test1](images/image4.png)
+
+![image test5](images/image5.png)
 
 ## 🔧 Notes techniques
 
