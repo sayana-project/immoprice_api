@@ -4,3 +4,13 @@ matplotlib
 scikit-learn
 seaborn
 xgboost
+python-dotenv
+requests
+FastAPI
+uvicorn
+pytest
+httpx
+pytest-cov
+pytest-asyncio
+anyio
+pytest-asyncio
